@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Detail1 from "./pages/Detail1";
-import DataSeries from "./components/DataSeries";
 
 const App = () => {
   return (
