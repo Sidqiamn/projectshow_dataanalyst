@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 // ─── ASSETS ──────────────────────────────────────────────────────────────────
 // Ganti path import sesuai struktur project kamu
 import imgMBG from "../assets/mbgkeracunan.png";
+import diabatesimg from "../assets/diabetes.png";
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
 const TOOLS = [
@@ -36,12 +37,12 @@ const TOOLS = [
           },
           {
             id: 2,
-            title: "Customer Density Heatmap",
-            date: "Feb 2026",
-            tag: "Heatmap",
+            title: "Ranking Diabetes",
+            date: "2024",
+            tag: "Diabetes",
             tagColor: "bg-amber-500",
-            image: imgMBG, // ← ganti dengan gambar lain
-            url: "#",
+            image: diabatesimg, // ← ganti dengan gambar lain
+            url: "/tableudiabates",
             isInternal: false,
           },
           {
