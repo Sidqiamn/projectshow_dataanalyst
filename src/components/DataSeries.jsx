@@ -9,6 +9,7 @@ import sales_dashboard1 from "../assets/sales_dashboard1.png";
 import hR from "../assets/hR.png";
 import rankmiliter from "../assets/rankmiliter.png";
 import gdp from "../assets/gdp.png";
+import lifeex from "../assets/lifeex.png";
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
 const TOOLS = [
@@ -26,7 +27,7 @@ const TOOLS = [
     subs: [
       {
         id: "tableau-maps",
-        label: "Maps",
+        label: "Maps & Chart",
         icon: "🗺️",
         items: [
           {
@@ -71,12 +72,12 @@ const TOOLS = [
           },
           {
             id: 5,
-            title: "Store Location Analysis",
+            title: "Life Expectancy",
             date: "Apr 2026",
-            tag: "Point Map",
+            tag: "Line Chart",
             tagColor: "bg-red-500",
-            image: imgMBG,
-            url: "#",
+            image: lifeex,
+            url: "/lifeexpectancy",
             isInternal: false,
           },
         ],

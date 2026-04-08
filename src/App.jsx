@@ -7,6 +7,7 @@ import Sales_dashboard1 from "./pages/Sales_dashboard1";
 import HRDashboard from "./pages/HRDashboard";
 import MiliterRanks from "./pages/MiliterRanks";
 import Gdp from "./pages/Gdp";
+import Lifeexpetancy from "./pages/lifeexpetancy";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/hRDashboard" element={<HRDashboard />} />
         <Route path="/militerranks" element={<MiliterRanks />} />
         <Route path="/gdp" element={<Gdp />} />
+        <Route path="/lifeexpectancy" element={<Lifeexpetancy />} />
       </Routes>
     </>
   );
