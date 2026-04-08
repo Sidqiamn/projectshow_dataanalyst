@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 // Ganti path import sesuai struktur project kamu
 import imgMBG from "../assets/mbgkeracunan.png";
 import diabatesimg from "../assets/diabetes.png";
+import sales_dashboard1 from "../assets/sales_dashboard1.png";
+import hR from "../assets/hR.png";
+import rankmiliter from "../assets/rankmiliter.png";
+import gdp from "../assets/gdp.png";
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
 const TOOLS = [
@@ -47,22 +51,22 @@ const TOOLS = [
           },
           {
             id: 3,
-            title: "Supply Chain Route Visualization",
-            date: "Mar 2026",
-            tag: "Flow Map",
-            tagColor: "bg-emerald-500",
-            image: imgMBG,
-            url: "#",
+            title: "Rank Global Military",
+            date: "2025",
+            tag: "CRM",
+            tagColor: "bg-violet-500",
+            image: rankmiliter,
+            url: "/militerranks",
             isInternal: false,
           },
           {
             id: 4,
-            title: "Market Penetration by Province",
-            date: "Mar 2026",
-            tag: "Choropleth",
+            title: "Distribusi GDP Global",
+            date: "Des 2025",
+            tag: "GDP",
             tagColor: "bg-indigo-500",
-            image: imgMBG,
-            url: "#",
+            image: gdp,
+            url: "/gdp",
             isInternal: false,
           },
           {
@@ -84,32 +88,32 @@ const TOOLS = [
         items: [
           {
             id: 1,
-            title: "Executive KPI Dashboard",
+            title: "Sales Dashboard",
             date: "Jan 2026",
-            tag: "KPI",
+            tag: "Dashboard",
             tagColor: "bg-orange-500",
-            image: imgMBG,
-            url: "#",
+            image: sales_dashboard1,
+            url: "/sales_dashboard1",
             isInternal: false,
           },
           {
             id: 2,
-            title: "Sales Performance Overview",
+            title: "HR Dashboard",
             date: "Feb 2026",
-            tag: "Sales",
+            tag: "HR",
             tagColor: "bg-blue-500",
-            image: imgMBG,
-            url: "#",
+            image: hR,
+            url: "/hRDashboard",
             isInternal: false,
           },
           {
             id: 3,
-            title: "Customer Segmentation Dashboard",
-            date: "Feb 2026",
+            title: "Rank Global Military",
+            date: "2025",
             tag: "CRM",
             tagColor: "bg-violet-500",
-            image: imgMBG,
-            url: "#",
+            image: rankmiliter,
+            url: "/militerranks",
             isInternal: false,
           },
           {
